@@ -49,7 +49,6 @@ def listerArrets(index1, index2, ligne):
   print("------")
 
 def determinerSens(_arret1, _arret2, _lignes):
-  print(_lignes)
   for index, element in enumerate(_lignes):
     ligne = ListeLigne[NomLigne.index(element)]
     if len(_lignes) == 1:
